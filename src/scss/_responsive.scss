@@ -1,0 +1,520 @@
+
+@media (min-width: 1000px) and (max-width: 1444px) {
+    .mt-90{
+        margin-top: 40px !important;
+    }
+
+    .about-card-content-decs{
+        font-size: 15px !important;
+        line-height: 18px !important; 
+    }
+}
+
+/* PC real only */
+@media (min-width: 1200px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+
+}
+
+
+/* PC only */
+@media (min-width: 1024px) {
+    // .hide-on-pc {
+    //     display: none !important;
+    // }
+
+}
+
+/* Tablet to PC low resolution */
+
+@media (min-width: 985px) and (max-width: 1200px) {
+    .hidden-low-pc{
+        display: none !important;
+    }
+
+    .intro-skin{
+        margin-top: 16px;
+    }
+
+    .about-card-content-decs{
+        font-size: 15px !important;
+        line-height: 18px !important;
+    }
+}
+
+
+/* Tablet Only */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hidden-tl{
+        display: none !important;
+    }
+
+    .about-card-content-decs{
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+
+    .App .story-bonus .card-robot-content-wrapper{
+        transition: all 0.5s ease-in-out;
+        transform: translateY(-12%);
+    }
+
+    .App{
+        .story-bonus .card-robot-content .swiper-slide-active img {
+            transition: all 0.5s ease-in-out;
+            transform: scale(0.8);
+        }
+
+        .intro{
+            // margin-top: 20px;
+
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container .row{
+                flex-direction: column-reverse;
+                height: unset;
+
+                .col-xl-6.centering{
+                    height: 300px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .intro-content-title{
+                font-size: 45px;
+            }
+            
+            .intro-content{
+                height: unset;
+            }
+        }
+
+        .story{
+
+            padding-bottom: 40px;
+
+            .story-left{
+                margin-bottom: 70px;
+            }
+
+            .story-planet{
+                margin: auto;
+            }
+
+            .story-left .rock--1{
+                left: 4%;
+            }
+
+            .card-robot-content-wrapper{
+                transform: translateY(21%);
+            }
+
+            .story-title{
+                padding-top: 50px;
+            }
+        }
+
+        .story-bonus-slider {
+            margin-bottom: 100px;
+        }
+
+        .roadmap{
+            height: unset;
+            padding-bottom: 50px;
+
+            // background: url(../../public/images/UP.png) bottom center no-repeat, url(../../public/images/story-bonus-left.png) left top no-repeat;
+
+            .roadmap-icon-mobile{
+                left: 4%;
+            }
+
+            .roadmap-end{
+                display: none;
+            }
+
+            .roadmap-content{
+                height: unset;
+            }
+
+            .roadmap-section{
+                padding: 0 40px 0 70px;
+                padding-bottom: 30px;
+            }
+        }
+
+         .footer{
+            padding-top: 50px;
+            .container {
+                align-items: flex-start;
+            }
+
+            .footer-img{
+                padding: 0 60px;
+                height: 450px;
+                transition: all 0.5s ease-in-out;
+                transform: translateY(40px);
+                margin-bottom: 40px;
+            }
+
+            .footer-img .wing-left{
+                left: 24%;
+            }
+
+            .footer-img .wing-right{
+                right: 26%;
+            }
+
+            .footer-coming{
+                align-items: center;
+                margin-bottom: 20px;
+                height: 100px;
+
+                .footer-logo{
+                    height: 100%;
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                img{
+                    height: 100% !important;
+                    width: auto !important;
+                }
+            }
+
+            .footer-text{
+                font-size: 35px;
+                margin-left: 10px;
+            }
+
+            .footer-img .fire-wrapper--left {
+                bottom: 10%;
+                left: 40%;
+            }
+        }
+
+        .partner-logo{
+            min-height: 187px;
+        }
+    }
+
+    
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hidden-t {
+        display: none;
+    }
+
+    .hidden-m-t {
+        display: none !important;
+    }
+
+    .App .story-bonus .container .row {
+        flex-direction: column-reverse;
+    }
+
+    .App{
+        .about{
+
+            .about-card-content-decs{
+                padding-top: 2%;
+                font-size: 14px !important;
+                line-height: 22px !important;
+            }
+        }
+    }
+}
+
+/* Mobile Only */
+@media (max-width: 739px) {
+    .hidden-m {
+        display: none !important;
+    }
+
+    .App{
+
+        .primary-title{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .centering-left{
+            justify-content: center;
+        }
+
+        .paragraph{
+            padding: 0 10px;
+            font-size: 18px;
+        }
+
+        .free-chartjs{
+            width: 80px !important;
+        }
+
+        .slider-control-item{
+            height: 30px;
+            width: 30px;
+        }
+
+        .intro{
+            margin-top: 20px;
+
+            .container .row{
+                flex-direction: column-reverse;
+                height: unset;
+
+                .col-xl-6.centering{
+                    height: 300px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .intro-content-title{
+                font-size: 45px;
+            }
+            
+            .intro-content{
+                height: unset;
+            }
+
+            .intro-middle-logo img{
+                transform: translateY(40%);
+            }
+
+            .intro-middle{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .intro-wrapper{
+                transform: scale(0.8) translateY(-15%);
+            }
+
+            .game-left-1 {
+                top: 66%;
+                left: 33.5%;
+            }
+
+            .game-right-1 {
+                top: 66%;
+                right: 33.5%;
+            }
+
+            .game-left-5 {
+                top: 77%;
+                left: 33.2%;
+            }
+
+            .game-right-5 {
+                top: 77%;
+                right: 33.2%;
+            }
+
+            .game-left-8 {
+                top: 94.5%;
+                left: 43%;
+            }
+
+            .game-right-8 {
+                top: 94.5%;
+                right: 43%;
+            }
+        }
+
+        .vision{
+            .container .row{
+                flex-direction: column-reverse;
+            }
+        }
+
+        .tournament{
+
+            .tournament-wrapper{
+                flex-wrap: wrap;
+                height: unset;
+                margin: 30px 0;
+            }
+
+            .tournament-item{
+                width: 100%;
+            }
+        }
+
+        .about-title{
+            margin-bottom: 0;
+        }
+        
+        .about{
+
+            .about-card-content-decs{
+                font-size: 14px;
+                line-height: 22px !important;
+            }
+        }
+
+        .story{
+
+            padding-bottom: 40px;
+
+            .story-left{
+                margin-bottom: 70px;
+            }
+
+            .story-planet{
+                margin: auto;
+            }
+
+            .story-left .rock--1{
+                left: 4%;
+            }
+
+            .card-robot-content-wrapper{
+                transform: translateY(21%);
+            }
+        }
+
+        .story-bonus{
+            .container .row{
+                flex-direction: column-reverse;
+            }
+
+            .card-robot-content-wrapper{
+                transition: all 0.5s ease-in-out;
+                transform: translateY(15%);
+            }
+        }
+
+        .tokenomic{
+            padding-bottom: 40px;
+            background-image: none;
+            margin: 40px 0;
+
+            .container .row{
+                flex-direction: column-reverse;
+            }
+
+            .tokenomic-content-network, .tokenomic-content-price, .tokenomic-content-supply{
+                font-size: 22px;
+            }
+            .tokenomic-content-name{
+                margin-top: 20px;
+                padding: 0 40px;
+            }
+            .tokenomic-content-code{
+                font-size: 32px;
+                margin-top: 8px;
+            }
+
+        }
+        
+        .token-allocation{
+            .token-allocation-percent-num{
+                font-size : 48px;
+                text-align: center;
+            }
+
+            .token-allocation-percent-name{
+                text-align: center;
+            }
+        }
+
+        .roadmap{
+            background-image:none;
+
+            .timeline-block-left{
+                h3,
+                span{
+                    text-align-last: left;
+                }
+            }
+        }
+
+        .team{
+            padding: 50px 0 10px;
+
+            .team-avt{
+                height: 600px;
+            }
+
+            .team-infor{
+                margin-top: 8px;
+            }
+
+            .team-infor-edu,
+            .team-infor-name,
+            .team-infor-job{
+                text-align: center;
+            }
+
+            .team-infor-name{
+                font-size: 40px;
+            }
+            
+            .team-infor-desc{
+                text-align: justify;
+                font-size: 19px;
+            }
+            .team-infor-social{
+                justify-content: center;
+            }
+
+            .team-infor-social-item {
+                margin: 8px 16px;
+            }
+        }
+
+        .partner{
+            padding: 50px 0 10px;
+            
+            .partner-logo{
+                min-height: 110px;
+            }
+        }
+
+        .footer{
+            height: 10vh;
+            .container {
+                align-items: flex-start;
+            }
+
+        }
+
+        .token-allocation{
+            padding: 20px 0;
+        }
+
+    }
+}
+
+/* 500*/
+@media (min-width: 500px) and (max-width: 742px) {
+    .hidden-500plus {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .hidden-500{
+        display: none !important;
+    }
+}
+
+// Motherfucking Iphone 5S
+@media (max-width: 375px) {
+    .main-content{
+        width: 100% !important;
+    }
+}
+

@@ -1,0 +1,72 @@
+@import '../../scss/variables';
+
+.header-home{
+    // background-color: $primary-purple;
+    padding: 20px 0;
+    height: 90px;
+
+    &-wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+    &-logo{
+        width: 140px;
+    }
+
+    &-nav{
+        flex: 1;
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+
+        &-item{
+            // width: 16%;
+            font-weight: 600;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6px 10px;
+            $border: 3px;
+            border: solid $border transparent;
+            transition: all 0.3s ease-in-out;
+            background: #250A58;
+            border-radius: 20px;
+
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+
+            &:hover{
+                color: #41A6DF;
+                cursor: pointer;
+            }
+
+            &:hover,
+            &.active{
+                max-width: 22em;
+                position: relative;
+                box-sizing: border-box;
+                $border: 3px;
+                color: #FFF;
+                background: #250A58;
+                background-clip: padding-box;
+                border: solid $border transparent;
+                border-radius: 20px;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0; right: 0; bottom: 0; left: 0;
+                    z-index: -1;
+                    margin: -$border;
+                    border-radius: inherit;
+                    background-image: linear-gradient(315deg, #7950f2 5%, #DE18A0 95%);
+                }
+            }
+        }
+    }
+}
